@@ -1,0 +1,95 @@
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #dcecf7;
+    max-width: 500px;
+    height:250px;
+    margin-top: -15px;
+    border:0.5px solid lightgray;
+  }
+  
+  .details-left {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .temperature {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .date-week-time {
+    margin: 10px 0;
+  }
+  
+  .date-week {
+    display: flex;
+    margin-top: 15px;
+    gap:15px;
+  }
+  
+  .date, .week {
+    font-size: 18px;
+    color: #555;
+  }
+  .dark-mode  .weather-details{
+    color:black;
+  }
+  .time {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 8px;
+    margin-left: 20px;
+  }
+  
+  .location-description-container {
+    background-color:whitesmoke; /* Light background color for container */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width:170px;
+    height:70px;
+  }
+  
+  .location-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .location, .description {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .location i {
+    margin-right: 8px; /* Space between icon and text */
+    color: #c53b40; /* Adjust icon color as needed */
+  }
+  .description i{
+    margin-right: 8px; /* Space between icon and text */
+    color: #e7a140; /* Adjust icon color as needed */
+  }
+  .details-right {
+    flex-shrink: 0;
+    text-align: center;
+  }
+  .details-right img{
+    width:170px;
+    height:auto;
+  }
+  
+  .weather-icon {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
+  }
+  

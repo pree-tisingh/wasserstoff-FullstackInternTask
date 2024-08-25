@@ -1,0 +1,24 @@
+/* Container for the rain graph */
+.rain-graph-container {
+    width: 100%;
+    max-width: 92%; 
+    height: 340px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f5f5dc; */
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Canvas height adjustment */
+.rain-graph-container canvas {
+    height: 300px !important; /* Adjust height to make the graph more prominent */
+}
+
+.chartjs-legend {
+    display: flex;
+    justify-content: flex-end; /* Align legend to the right */
+    margin-bottom: 10px;
+    
+}
