@@ -12,7 +12,7 @@ const WindTurbineDisplay = ({ windSpeed }) => {
         src="https://clipart-library.com/img/1817018.jpg" 
         alt="Wind Turbine"
         className="wind-turbine-image"
-        style={{ animation: `spin ${spinSpeed}s linear infinite` }}
+       
       />
       <div className="wind-speed-text">{`${windSpeed} km/h`}</div>
     </div>
